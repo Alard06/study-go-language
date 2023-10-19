@@ -10,6 +10,7 @@ func main() {
 	fmt.Println(numbers)
 	numbers2 := [...]int{5, 5, 6, 7, 2, 1, 5}
 	fmt.Println(len(numbers2))
+	fmt.Println()
 
 	numbers3 := [...]string{1: "I", 2: "II", 3: "III", 0: "0"}
 	fmt.Println(numbers3[0])
